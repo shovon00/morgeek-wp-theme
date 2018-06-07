@@ -1,0 +1,427 @@
+/*==================== css for mobile device section ====================*/
+@media (min-width: 275px) and (max-width: 767px){
+.menu .navbar-default .navbar-nav > li > a, 
+.menu .navbar-default .navbar-nav > li > a:focus {
+    text-align: center;
+}
+
+.banner-content{
+    padding: 100px 0;
+}
+
+.banner-logo, 
+.banner-text {
+    width: 280px;
+}
+
+#banner .btn {
+    padding: 12px 12px;
+    font-size: 13px;
+}
+
+h2.section-head {
+    font-size: 30px;
+}
+
+.about-content {
+    padding: 0 0 50px;
+}
+
+.news-caption {
+    padding: 10px 20px;
+}
+
+.swiper-slide img {
+    width: 275px;
+}
+
+/*game-page*/
+.game-text {
+    padding: 50px 30px;
+}
+
+.section_bottom-200 {
+    padding-bottom: 50px;
+}
+
+.section_top-200 {
+    padding-top: 50px;
+}
+
+/*contact page*/
+.support-text {
+    padding: 0;
+}
+
+.support-img {
+    margin-top: 30px;
+}
+
+/*about-page*/
+.about-head-content {
+    padding: 100px 0;
+}
+
+.summery-text {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    top: -15%;
+}
+
+.co-development-text {
+    padding: 55px 14%;
+}
+
+.co-development-text h3 {
+    font-size: 20px;
+}
+
+.co-development-text h4 {
+    font-size: 17px;
+}
+
+.work-with-content {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.divider{
+    border-right: none;
+}
+
+/*.about-contact-content h2 {
+    font-size: 28px;
+    line-height: 38px;
+}*/
+
+}/*end of max-width: 767px*/
+
+@media (min-width: 275px) and (max-width: 320px){
+.support-img .omega-btn {
+    left: 10%;
+}
+
+.support-img .orbit-btn {
+    left: 8%;
+}
+
+.counter-content {
+    width: 130px;
+    height: 85px;
+    padding-top: 10px;
+    margin: 100px auto 50px;
+}
+
+.counter-content::before, 
+.counter-content::after {
+    width: 92px;
+    height: 92px;
+    left: 16px;
+}
+.counter-content::before {
+    top: -46px;
+}
+
+.counter-content::after {
+    bottom: -46px;
+}
+
+}/*end of max-width: 320px*/
+
+@media (min-width: 321px) and (max-width: 480px){
+.support-img .omega-btn {
+    left: 17%;
+}
+
+.support-img .orbit-btn {
+    left: 15%;
+}
+
+.counter-content {
+    width: 130px;
+    height: 85px;
+    padding-top: 10px;
+    margin: 100px auto 50px;
+}
+
+.counter-content::before, 
+.counter-content::after {
+    width: 92px;
+    height: 92px;
+    left: 16px;
+}
+.counter-content::before {
+    top: -46px;
+}
+
+.counter-content::after {
+    bottom: -46px;
+}
+
+
+
+}/*end of max-width: 480px*/
+
+@media (min-width: 481px) and (max-width: 640px){
+.support-img .omega-btn {
+    left: 20%;
+}
+
+.support-img .orbit-btn {
+    left: 20%;
+}
+
+.counter-content {
+    margin: 100px auto 50px;
+}
+
+}/*end of max-width: 320px*/
+
+/*==================== css for small device section ====================*/
+@media (min-width: 768px) and (max-width: 991px){
+.menu .navbar-default .navbar-nav > li > a, 
+.menu .navbar-default .navbar-nav > li > a:focus {
+    font-size: 15px;
+}
+
+.menu .nav > li > a {
+    padding: 20px 12px;
+}
+
+.about-content {
+    padding: 35px 25px 0;
+}
+
+.contact-img img {
+    top: -50px;
+    width: 390px;
+}
+
+/*game-page*/
+.game-text {
+    padding: 35px 30px;
+}
+
+.game-text h3 {
+    font-size: 25px;
+}
+
+.footer-img img {
+    position: absolute;
+    top: -70px;
+    width: 320px;
+}
+
+.section_bottom-200 {
+    padding-bottom: 150px;
+}
+
+.section_top-200 {
+    padding-top: 100px;
+}
+
+/*contact page*/
+#contact-head .contact-us-content {
+    padding: 150px 0;
+}
+
+.support-text .section-head {
+    font-size: 28px;
+}
+
+.support-text h2.section-head::after {
+    width: 95%;
+}
+
+.support-text {
+    padding: 15% 0;
+}
+
+.support-img .omega-btn {
+    left: 9%;
+}
+
+.support-img .orbit-btn {
+    left: 7%;
+}
+
+.support-img .btn {
+    padding: 12px 12%;
+}
+
+#contact-form .contact-img img {
+    width: 430px;
+}
+
+/*about-page*/
+.counter-content {
+    width: 155px;
+    height: 90px;
+    padding-top: 10px;
+}
+.counter-content::before {
+    top: -55px;
+}
+
+.counter-content::after {
+    bottom: -55px;
+}
+
+.counter-content::before, 
+.counter-content::after {
+    width: 110px;
+    height: 110px;
+    left: 19px;
+}
+
+.summery-top-left {
+    left: 5%;
+}
+
+.summery-top-right {
+    right: 12%;
+}
+
+.summery-bottom-right {
+    top: 12%;
+    right: 18px;
+}
+
+.summery-bottom-left {
+    left: 3%;
+}
+
+.summery-text {
+    right: 5%;
+}
+
+.co-development-text h3 {
+    font-size: 25px;
+}
+
+.co-development-text {
+    padding: 23.7% 7%;
+}
+
+.co-development-text h4 {
+    font-size: 15px;
+}
+
+.work-with-content {
+    padding: 20px 10px;
+}
+
+.about-contact-content h2 {
+    font-size: 35px;
+}
+
+.about-contact-img img {
+    top: -15px;
+}
+
+}/*end of max-width: 991px*/
+
+
+/*==================== css for desktop device section ====================*/
+@media (min-width: 992px) and (max-width: 1199px){
+.about-content {
+    padding: 45px 75px 0;
+}
+
+/*game-page*/
+.game-text {
+    padding: 40px 35px;
+}
+
+.footer-img img {
+    position: absolute;
+    top: -100px;
+    width: 380px;
+}
+
+.section_bottom-200 {
+    padding-bottom: 100px;
+}
+
+.section_top-200 {
+    padding-top: 120px;
+}
+
+/*contact page*/
+.support-text .section-head {
+    font-size: 33px;
+}
+
+.support-text {
+    padding: 25% 0;
+}
+
+.support-img .omega-btn {
+    left: 8%;
+}
+
+.support-img .orbit-btn {
+    left: 6%;
+}
+
+#contact-form .contact-img img {
+    width: 450px;
+}
+
+/*about-page*/
+.counter-content {
+    width: 170px;
+    height: 100px;
+    padding-top: 10px;
+}
+.counter-content::before {
+    top: -60px;
+}
+
+.counter-content::after {
+    bottom: -60px;
+}
+
+.counter-content::before, 
+.counter-content::after {
+    width: 120px;
+    height: 120px;
+    left: 22px;
+}
+
+.summery-top-left {
+    left: 8%;
+}
+
+.summery-top-right {
+    right: 16%;
+}
+
+.summery-bottom-right {
+    right: 4%;
+}
+
+.summery-bottom-left {
+    left: 7%;
+}
+
+.summery-text {
+    right: 5%;
+}
+
+.co-development-text {
+    padding: 25px 15%;
+}
+
+.work-with-content {
+    padding: 20px 38px;
+}
+
+}/*end of max-width: 1199px*/
+
+
+/*==================== css for large device section ====================*/
+@media (min-width: 1200px) and (max-width: 1920px){
+	
+}/*end of max-width: 1920px
